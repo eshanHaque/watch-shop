@@ -12,7 +12,7 @@ const Product = (props) => {
             <p className='product-name'>{name}</p>
             <p className='product-price'>{price}</p> 
             <button onClick={() => props.addToCart(props.product)} className='btn-cart'>
-                <p>Add to Cart</p>
+                <p className='btn-text'>Add to Cart</p>
                 <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
             </button>
         </div>
