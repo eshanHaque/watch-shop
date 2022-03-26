@@ -6,14 +6,14 @@ const Cart = (props) => {
 
     let watch = "";
     for(const product of cart){
-        watch = product.name;
+        watch = watch +""+ product.name;
     }
     
     return (
         <div className='cart'>
             <h2 className='watch-text'>Selected Watch</h2>
             <div>
-                <p className='cart-text'>{watch}</p>
+                <h4 className='cart-text'>{watch}</h4>
                 <button> <p>CHOOSE 1 FOR ME</p> </button>
                 <button> <p>CHOOSE Again</p> </button>
             </div>
