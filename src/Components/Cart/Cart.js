@@ -11,9 +11,9 @@ const Cart = (props) => {
     
     return (
         <div className='cart'>
-            <h2 className='watch'>Selected Watch</h2>
+            <h2 className='watch-text'>Selected Watch</h2>
             <div>
-                <p>{watch}</p>
+                <p className='cart-text'>{watch}</p>
                 <button> <p>CHOOSE 1 FOR ME</p> </button>
                 <button> <p>CHOOSE Again</p> </button>
             </div>
